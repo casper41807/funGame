@@ -13,6 +13,12 @@
 		2288D90E280A8FC6000E48F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2288D90C280A8FC6000E48F7 /* Main.storyboard */; };
 		2288D910280A8FC7000E48F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2288D90F280A8FC7000E48F7 /* Assets.xcassets */; };
 		2288D913280A8FC7000E48F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2288D911280A8FC7000E48F7 /* LaunchScreen.storyboard */; };
+		2288D91B280AA308000E48F7 /* poker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2288D91A280AA308000E48F7 /* poker.swift */; };
+		2288D91D280ABEE2000E48F7 /* BlackJackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2288D91C280ABEE2000E48F7 /* BlackJackViewController.swift */; };
+		2288D91F280ABFF3000E48F7 /* flopMemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2288D91E280ABFF3000E48F7 /* flopMemoryViewController.swift */; };
+		22BF3DB5280EE37E0018C563 /* 123.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22BF3DB4280EE37E0018C563 /* 123.mp3 */; };
+		22BF3DB7280EEC110018C563 /* 456.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22BF3DB6280EEC110018C563 /* 456.mp3 */; };
+		22BF3DB928112B4A0018C563 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22BF3DB828112B4A0018C563 /* correct.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		2288D90F280A8FC7000E48F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2288D912280A8FC7000E48F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2288D914280A8FC7000E48F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2288D91A280AA308000E48F7 /* poker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poker.swift; sourceTree = "<group>"; };
+		2288D91C280ABEE2000E48F7 /* BlackJackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackViewController.swift; sourceTree = "<group>"; };
+		2288D91E280ABFF3000E48F7 /* flopMemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flopMemoryViewController.swift; sourceTree = "<group>"; };
+		22BF3DB4280EE37E0018C563 /* 123.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 123.mp3; sourceTree = "<group>"; };
+		22BF3DB6280EEC110018C563 /* 456.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 456.mp3; sourceTree = "<group>"; };
+		22BF3DB828112B4A0018C563 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,12 @@
 		2288D8FA280A8FC6000E48F7 = {
 			isa = PBXGroup;
 			children = (
+				2288D91E280ABFF3000E48F7 /* flopMemoryViewController.swift */,
+				2288D91C280ABEE2000E48F7 /* BlackJackViewController.swift */,
+				2288D91A280AA308000E48F7 /* poker.swift */,
+				22BF3DB6280EEC110018C563 /* 456.mp3 */,
+				22BF3DB828112B4A0018C563 /* correct.mp3 */,
+				22BF3DB4280EE37E0018C563 /* 123.mp3 */,
 				2288D905280A8FC6000E48F7 /* funGame */,
 				2288D904280A8FC6000E48F7 /* Products */,
 			);
@@ -125,6 +143,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22BF3DB7280EEC110018C563 /* 456.mp3 in Resources */,
+				22BF3DB928112B4A0018C563 /* correct.mp3 in Resources */,
+				22BF3DB5280EE37E0018C563 /* 123.mp3 in Resources */,
 				2288D913280A8FC7000E48F7 /* LaunchScreen.storyboard in Resources */,
 				2288D910280A8FC7000E48F7 /* Assets.xcassets in Resources */,
 				2288D90E280A8FC6000E48F7 /* Main.storyboard in Resources */,
@@ -138,9 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2288D91F280ABFF3000E48F7 /* flopMemoryViewController.swift in Sources */,
 				2288D90B280A8FC6000E48F7 /* ViewController.swift in Sources */,
+				2288D91D280ABEE2000E48F7 /* BlackJackViewController.swift in Sources */,
 				2288D907280A8FC6000E48F7 /* AppDelegate.swift in Sources */,
 				2288D909280A8FC6000E48F7 /* SceneDelegate.swift in Sources */,
+				2288D91B280AA308000E48F7 /* poker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +319,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +348,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
